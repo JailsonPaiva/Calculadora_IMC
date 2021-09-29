@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to left, #F29F05, #F2B705,#F2CB05);
+}
+
+main {
+    width: 550px;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 8px;
+    background: #9ACFDD;
+}
+
+
+#peso, #altura {
+    height: 2.5rem;
+
+    padding: 0 1rem;
+
+    border: none;
+    border-radius: 3px;
+}
+
+
+#resultado {
+    width: 50%;
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    background-color: white;
+}
+
+.ButtonArea {
+    width: 50%;
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.BtnCalcular, .BtnLimpar {
+    width: 45%;
+    height: 2.5rem;
+
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.BtnCalcular {
+    background-color: limegreen;
+}
+
+.BtnCalcular:hover, .BtnLimpar:hover {
+    background-color: ghostwhite;
+
+    box-shadow: 2px 2px 8px -5px black;
+}
+
+
+.BtnLimpar {
+    background-color: rgb(248, 43, 43);
+}
