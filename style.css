@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(to left, #F29F05, #F2B705,#F2CB05);
+    background: rgb(40, 80, 145);
 }
 
 main {
@@ -27,7 +27,7 @@ main {
     justify-content: space-evenly;
 
     border-radius: 8px;
-    background: #9ACFDD;
+    background: #eecc70;
 }
 
 
@@ -82,23 +82,22 @@ BOTÕES
 }
 
 .BtnCalcular {
-    background-color: limegreen;
+    background-color: rgb(90, 209, 90);
 }
 
 .BtnCalcular:hover {
-    background-color: ghostwhite;
+    background-color: rgba(255, 255, 255, 0.952);
 
     box-shadow: 2px 2px 8px -5px black;
 }
 
 .BtnLimpar {
-    background-color: rgba(224, 221, 221, 0);
+    background-color: rgba(255, 255, 255, 0.952);
 
-    border: .5px solid #669baa;
 }
 
 .BtnLimpar:hover {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.863);
     color: white;
 
     box-shadow: 2px 2px 8px -5px black;
